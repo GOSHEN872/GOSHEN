@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Goshen Foundation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {margin:0;font-family:Poppins, sans-serif;background:#0B1C2A;color:#F7F9FC;}
+    header {background:#112638;padding:15px;position:sticky;top:0;}
+    header h1 {margin:0;font-size:1.4rem;}
+    nav a {color:#26A69A;margin:0 10px;text-decoration:none;}
+    section {padding:40px 20px;border-top:1px solid rgba(255,255,255,.1);}
+    h2 {color:#FFC857;}
+    .card {background:#112638;padding:20px;border-radius:12px;margin:10px 0;}
+    .btn {display:inline-block;padding:10px 16px;background:#26A69A;color:#072016;
+          border-radius:8px;text-decoration:none;font-weight:600;}
+    .gallery img {width:100%;max-width:300px;border-radius:10px;margin:10px;}
+    footer {background:#112638;padding:20px;text-align:center;color:#C9D6E7;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Goshen Foundation</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#meaning">Meaning</a>
+      <a href="#purpose">Purpose</a>
+      <a href="#goals">Goals</a>
+      <a href="#reasons">Reasons</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#donate">Donate</a>
+      <a href="#volunteer">Volunteer</a>
+      <a href="#updates">Updates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Goshen</h2>
+    <p>Founded by Jonathan Mudenyo from Webuye, Goshen nurtures faith, education, and sport for unprivileged talented children.</p>
+  </section>
+
+  <section id="meaning">
+    <h2>Meaning of Goshen</h2>
+    <p>Goshen was a safe place of plenty in ancient Egypt given to Jacob and his descendants. We aim to recreate that safe place for children today.</p>
+  </section>
+
+  <section id="purpose">
+    <h2>Purpose</h2>
+    <p>We help children fill the void of rejection or lost dreams with God and their talents, steering them away from drugs and crime.</p>
+  </section>
+
+  <section id="goals">
+    <h2>Goals & Timeline</h2>
+    <div class="card"><strong>2025–2026:</strong> Visit orphanages, give hope, provide equipment.</div>
+    <div class="card"><strong>2026–2027:</strong> Plan and build the orphanage.</div>
+    <div class="card"><strong>2027–2028:</strong> Enroll talented children in leagues.</div>
+    <div class="card"><strong>2028–2029:</strong> Take children for trials and tournaments locally and abroad.</div>
+  </section>
+
+  <section id="reasons">
+    <h2>Why Goshen Matters</h2>
+    <ul>
+      <li>Gives the unfortunate a chance to chase their dreams.</li>
+      <li>Reduces street children and crime rates.</li>
+      <li>Brings more people closer to Christ.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200.png?text=Football+Training" alt="Football Training">
+      <img src="https://via.placeholder.com/300x200.png?text=Community+Event" alt="Community Event">
+      <img src="https://via.placeholder.com/300x200.png?text=Orphanage+Plans" alt="Orphanage Plans">
+    </div>
+  </section>
+
+  <section id="donate">
+    <h2>Support Goshen</h2>
+    <p>Your donations help us buy equipment, build facilities, and sponsor children.</p>
+    <a class="btn" href="https://www.paypal.com/donate" target="_blank">Donate via PayPal</a>
+    <p>Or send via M‑Pesa: <strong>0712 527 349</strong></p>
+ </section>
+
+  <section id="updates">
+    <h2>League Updates</h2>
+    <div class="card">⚽ Training sessions begin January 2026.</div>
+    <div class="card">🏆 First youth league enrollment planned for 2027.</div>
+    <div class="card">🌍 International trials scheduled for 2029.</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:vijm191@gmail.com">vijm191@gmail.com</a></p>
+    <p>Phone: <a href="tel:+254712527349">0712 527 349</a></p>
+    <p>Location: Racecourse Ward, Uasin Gishu County, Kenya</p>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Goshen Foundation — Aspiring Young Talent
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
